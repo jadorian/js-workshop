@@ -4,9 +4,11 @@
  */
 
 var arraySum = function(array) {
-  // TODO: Your code here!
-  // ...
-  return 1337;
+  var sum = 0;
+  for (var i = 0; i < array.length; ++i) {
+    sum += array[i];
+  }
+  return sum;
 };
 
 // Tests (don't modify)

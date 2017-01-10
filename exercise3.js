@@ -13,8 +13,7 @@ var doubleArray = function(array, callback) {
 var array = [2, 3, 4];
 
 doubleArray(array, function(value) {
-  // TODO: Your code here!
-  // ...
+  return value * 2;
 });
 
 

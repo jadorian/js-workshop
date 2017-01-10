@@ -10,9 +10,16 @@
  */
 
 var hairColor = function(people) {
-  // TODO: Your code here!
-  // ...
-  return 'rainbow';
+  if (people.length === 0) {
+    return null;
+  }
+  var oldestPerson = people[0];
+  for (var i = 0; i < people.length; ++i) {
+    if (oldestPerson.age < people[i].age) {
+      oldestPerson = people[i];
+    }
+  }
+  return oldestPerson.hairColor;
 };
 
 
