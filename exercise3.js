@@ -10,7 +10,9 @@ var doubleArray = function(array, callback) {
   });
 };
 
-var result = doubleArray([2, 3, 4], function(value) {
+var array = [2, 3, 4];
+
+doubleArray(array, function(value) {
   // TODO: Your code here!
   // ...
 });
