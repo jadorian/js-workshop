@@ -19,10 +19,10 @@ doubleArray(array, function(value) {
 
 
 // Tests (don't modify)
-if (result.length === 3 &&
-    result[0] === 4 &&
-    result[1] === 6 &&
-    result[2] === 8) {
+if (array.length === 3 &&
+    array[0] === 4 &&
+    array[1] === 6 &&
+    array[2] === 8) {
   console.log('Exercise 3 tests pass!');
 } else {
   console.log('Exercise 3 tests fail!');
